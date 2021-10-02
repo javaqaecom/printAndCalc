@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class program1 {
+    public static void main(String[] args) {
+        System.out.println("hello java");
+        System.out.print("print without line");
+        System.out.println("<= from another code line ");
+        System.out.println("5+5");//5+5
+        System.out.println(5+5);//10
+        int x =4;//variable
+        System.out.println(x);// as in line 6
+        System.out.println("x");// as in line 7
+        Scanner scn1= new Scanner(System.in);// the scanner we use to get input from the user
+        int numb1;
+        int numb2;
+        System.out.println("please enter the first number");
+        numb1=scn1.nextInt();
+        System.out.println("please enter the first number");
+        numb2=scn1.nextInt();
+        System.out.println("the result is : "+numb1*numb2);
+        System.out.println(numb1+"*"+numb2+"="+numb1*numb2);
+
+
+    }
+}
